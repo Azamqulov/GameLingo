@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameLingo | Türkiye'nin Oyun Lokalizasyon Uzmanları</title>
+    <meta name="description"
+        content="Profesyonel oyun çeviri ve lokalizasyon hizmetleri. Mobil oyunlar, PC oyunları ve konsol oyunları için kapsamlı dil entegrasyonu çözümleri.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="loader">
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+            </div>
+            <h2 class="preloader-text">GameLingo</h2>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-container">
+            <div class="logo-container">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon"><i class="fas fa-gamepad"></i></span>
+                    <span class="logo-text">Game<span>Lingo</span></span>
+                </a>
+            </div>
+
+            <div class="header-right">
+                <nav class="main-nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#home" class="nav-link active">Ana Sayfa</a></li>
+                        <li class="nav-item"><a href="#services" class="nav-link">Hizmetler</a></li>
+                        <li class="nav-item"><a href="#process" class="nav-link">Süreç</a></li>
+                        <li class="nav-item"><a href="#portfolio" class="nav-link">Portföy</a></li>
+                        <li class="nav-item"><a href="#languages" class="nav-link">Diller</a></li>
+                        <li class="nav-item"><a href="#testimonials" class="nav-link">Referanslar</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">İletişim</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-actions">
+
+                    <a href="#contact" class="btn-contact">Teklif Al</a>
+
+                    <button class="menu-toggle">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <a href="index.html" class="logo">
+                <span class="logo-icon"><i class="fas fa-gamepad"></i></span>
+                <span class="logo-text">Game<span>Lingo</span></span>
+            </a>
+            <button class="mobile-menu-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <nav class="mobile-nav">
+            <ul class="mobile-nav-list">
+                <li class="mobile-nav-item"><a href="#home" class="mobile-nav-link">Ana Sayfa</a></li>
+                <li class="mobile-nav-item"><a href="#services" class="mobile-nav-link">Hizmetler</a></li>
+                <li class="mobile-nav-item"><a href="#process" class="mobile-nav-link">Süreç</a></li>
+                <li class="mobile-nav-item"><a href="#portfolio" class="mobile-nav-link">Portföy</a></li>
+                <li class="mobile-nav-item"><a href="#languages" class="mobile-nav-link">Diller</a></li>
+                <li class="mobile-nav-item"><a href="#testimonials" class="mobile-nav-link">Referanslar</a></li>
+                <li class="mobile-nav-item"><a href="#contact" class="mobile-nav-link">İletişim</a></li>
+            </ul>
+        </nav>
+
+        <div class="mobile-menu-footer">
+            <div class="mobile-language">
+                <h4>Dil Seçimi</h4>
+                <ul class="mobile-language-list">
+                    <li><a href="#" class="active"><span class="flag-icon">🇹🇷</span> Türkçe</a></li>
+                    <li><a href="#"><span class="flag-icon">🇬🇧</span> English</a></li>
+                    <li><a href="#"><span class="flag-icon">🇩🇪</span> Deutsch</a></li>
+                    <li><a href="#"><span class="flag-icon">🇯🇵</span> 日本語</a></li>
+                    <li><a href="#"><span class="flag-icon">🇰🇷</span> 한국어</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-social">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="hero-particles" id="particles-js"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Oyunlarınızı <span class="gradient-text">Globale</span> Taşıyoruz</h1>
+            <p class="hero-subtitle">Profesyonel oyun lokalizasyon hizmetleri ile oyunlarınızı dünya çapında oyunculara
+                ulaştırın</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary">Hizmetlerimiz</a>
+                <a href="#contact" class="btn btn-outline">Teklif Al</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number"><span class="counter" data-target="50">0</span>+</div>
+                    <div class="stat-label">Dil Desteği</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number"><span class="counter" data-target="500">0</span>+</div>
+                    <div class="stat-label">Tamamlanan Proje</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number"><span class="counter" data-target="100">0</span>+</div>
+                    <div class="stat-label">Mutlu Müşteri</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-down">
+            <a href="#services">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="arrow">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section section-padding" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Hizmetlerimiz</span>
+                <h2 class="section-title">Oyun Lokalizasyon <span class="gradient-text">Çözümlerimiz</span></h2>
+                <p class="section-description">Oyunlarınızı farklı dil ve kültürlere uyarlamak için kapsamlı
+                    lokalizasyon hizmetleri sunuyoruz.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3 class="service-title">Oyun Çeviri Hizmetleri</h3>
+                    <p class="service-description">Oyun içi metinlerin, diyalogların, menülerin ve kullanıcı
+                        arayüzlerinin profesyonel çevirisi.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Kültürel uyarlama</li>
+                        <li><i class="fas fa-check"></i> Terminoloji yönetimi</li>
+                        <li><i class="fas fa-check"></i> Tutarlı çeviri</li>
+                        <li><i class="fas fa-check"></i> Yerel dil uzmanları</li>
+                    </ul>
+                    <a href="#" class="btn-text">Daha Fazla Bilgi <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="service-title">Mobil Oyun Lokalizasyonu</h3>
+                    <p class="service-description">iOS ve Android platformları için mobil oyunların tam lokalizasyonu ve
+                        kültürel uyarlaması.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> App Store optimizasyonu</li>
+                        <li><i class="fas fa-check"></i> Google Play uyumluluğu</li>
+                        <li><i class="fas fa-check"></i> Yerel pazarlama desteği</li>
+                        <li><i class="fas fa-check"></i> Uygulama içi satın alma çevirisi</li>
+                    </ul>
+                    <a href="#" class="btn-text">Daha Fazla Bilgi <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-microphone-alt"></i>
+                    </div>
+                    <h3 class="service-title">Ses ve Dublaj Hizmetleri</h3>
+                    <p class="service-description">Profesyonel seslendirme sanatçıları ile oyun karakterlerinize hayat
+                        veren dublaj hizmetleri.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Profesyonel ses stüdyosu</li>
+                        <li><i class="fas fa-check"></i> Karakter uyumlu seslendirme</li>
+                        <li><i class="fas fa-check"></i> Lip-sync desteği</li>
+                        <li><i class="fas fa-check"></i> Ses efekti entegrasyonu</li>
+                    </ul>
+                    <a href="#" class="btn-text">Daha Fazla Bilgi <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="service-title">Teknik Entegrasyon</h3>
+                    <p class="service-description">Çeviri dosyalarının oyun motoruna entegrasyonu ve teknik uyumluluk
+                        testleri.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Unity ve Unreal Engine desteği</li>
+                        <li><i class="fas fa-check"></i> XML, JSON, CSV formatları</li>
+                        <li><i class="fas fa-check"></i> Karakter kodlama uyumluluğu</li>
+                        <li><i class="fas fa-check"></i> Lokalizasyon QA testleri</li>
+                    </ul>
+                    <a href="#" class="btn-text">Daha Fazla Bilgi <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="service-title">Kültürel Danışmanlık</h3>
+                    <p class="service-description">Hedef pazarın kültürel hassasiyetlerine uygun içerik uyarlaması ve
+                        danışmanlık hizmetleri.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Kültürel uygunluk kontrolü</li>
+                        <li><i class="fas fa-check"></i> Yerel pazarlama stratejileri</li>
+                        <li><i class="fas fa-check"></i> Yasal uyumluluk danışmanlığı</li>
+                        <li><i class="fas fa-check"></i> Yerel oyuncu alışkanlıkları analizi</li>
+                    </ul>
+                    <a href="#" class="btn-text">Daha Fazla Bilgi <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <h3 class="service-title">Lokalizasyon QA</h3>
+                    <p class="service-description">Çeviri kalitesi, teknik uyumluluk ve kullanıcı deneyimi odaklı
+                        kapsamlı kalite kontrol testleri.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Dilbilgisi ve yazım kontrolü</li>
+                        <li><i class="fas fa-check"></i> Fonksiyonel test</li>
+                        <li><i class="fas fa-check"></i> Görsel uyumluluk kontrolü</li>
+                        <li><i class="fas fa-check"></i> Yerel oyuncu test grupları</li>
+                    </ul>
+                    <a href="#" class="btn-text">Daha Fazla Bilgi <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section section-padding" id="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Çalışma Sürecimiz</span>
+                <h2 class="section-title">Lokalizasyon <span class="gradient-text">Sürecimiz</span></h2>
+                <p class="section-description">Oyunlarınızın başarılı bir şekilde lokalize edilmesi için izlediğimiz
+                    adımlar.</p>
+            </div>
+
+            <div class="process-timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-number">01</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Analiz ve Planlama</h3>
+                        <p class="timeline-description">Oyununuzun içeriğini, hedef kitlenizi ve lokalizasyon
+                            ihtiyaçlarınızı detaylı olarak analiz ederiz.</p>
+                        <ul class="timeline-features">
+                            <li><i class="fas fa-check-circle"></i> İçerik analizi</li>
+                            <li><i class="fas fa-check-circle"></i> Hedef pazar araştırması</li>
+                            <li><i class="fas fa-check-circle"></i> Kaynak dosya hazırlığı</li>
+                            <li><i class="fas fa-check-circle"></i> Zaman ve bütçe planlaması</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-number">02</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Terminoloji Oluşturma</h3>
+                        <p class="timeline-description">Oyununuza özel terim sözlüğü oluşturarak çevirilerde tutarlılığı
+                            sağlarız.</p>
+                        <ul class="timeline-features">
+                            <li><i class="fas fa-check-circle"></i> Anahtar terimlerin belirlenmesi</li>
+                            <li><i class="fas fa-check-circle"></i> Karakter ve yer isimlerinin standardizasyonu</li>
+                            <li><i class="fas fa-check-circle"></i> Oyun mekaniklerinin terminolojisi</li>
+                            <li><i class="fas fa-check-circle"></i> Çeviri belleği oluşturma</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-number">03</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Çeviri ve Adaptasyon</h3>
+                        <p class="timeline-description">Ana dili hedef dil olan uzman çevirmenlerimiz tarafından
+                            içeriğiniz çevrilir ve kültürel olarak uyarlanır.</p>
+                        <ul class="timeline-features">
+                            <li><i class="fas fa-check-circle"></i> Profesyonel oyun çevirmenleri</li>
+                            <li><i class="fas fa-check-circle"></i> Kültürel uyarlama</li>
+                            <li><i class="fas fa-check-circle"></i> Mizah ve deyimlerin yerelleştirilmesi</li>
+                            <li><i class="fas fa-check-circle"></i> Karakter sınırlamalarına uyum</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-number">04</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Düzenleme ve Kalite Kontrolü</h3>
+                        <p class="timeline-description">Çeviriler ikinci bir uzman tarafından gözden geçirilir ve
+                            düzenlenir.</p>
+                        <ul class="timeline-features">
+                            <li><i class="fas fa-check-circle"></i> Dilbilgisi ve yazım kontrolü</li>
+                            <li><i class="fas fa-check-circle"></i> Terminoloji tutarlılığı</li>
+                            <li><i class="fas fa-check-circle"></i> Bağlam kontrolü</li>
+                            <li><i class="fas fa-check-circle"></i> Stil ve ton uyumluluğu</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-number">05</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Entegrasyon ve Teknik QA</h3>
+                        <p class="timeline-description">Çeviriler oyun motoruna entegre edilir ve teknik uyumluluk
+                            testleri yapılır.</p>
+                        <ul class="timeline-features">
+                            <li><i class="fas fa-check-circle"></i> Dosya formatı dönüşümleri</li>
+                            <li><i class="fas fa-check-circle"></i> Karakter kodlama kontrolü</li>
+                            <li><i class="fas fa-check-circle"></i> UI uyumluluk testi</li>
+                            <li><i class="fas fa-check-circle"></i> Fonksiyonel test</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-number">06</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Lokalizasyon QA ve Onay</h3>
+                        <p class="timeline-description">Oyun içinde çevirilerin doğru görüntülendiği ve oynanabilirliği
+                            etkilemediği kontrol edilir.</p>
+                        <ul class="timeline-features">
+                            <li><i class="fas fa-check-circle"></i> Oyun içi metin kontrolü</li>
+                            <li><i class="fas fa-check-circle"></i> Bağlam doğruluğu</li>
+                            <li><i class="fas fa-check-circle"></i> Yerel oyuncu test grupları</li>
+                            <li><i class="fas fa-check-circle"></i> Final onayı</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section section-padding" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Başarı Hikayelerimiz</span>
+                <h2 class="section-title">Lokalize Ettiğimiz <span class="gradient-text">Oyunlar</span></h2>
+                <p class="section-description">Farklı türlerde ve platformlarda lokalize ettiğimiz oyunlardan bazı
+                    örnekler.</p>
+            </div>
+
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Tümü</button>
+                <button class="filter-btn" data-filter="mobile">Mobil</button>
+                <button class="filter-btn" data-filter="pc">PC</button>
+                <button class="filter-btn" data-filter="console">Konsol</button>
+                <button class="filter-btn" data-filter="vr">VR/AR</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="mobile" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1486572788966-cfd3df1f5b42?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8RmFudGFzeSUyMFF1ZXN0JTIwZ2FtZXxlbnwwfHwwfHx8MA%3D%3D"
+                            alt="Fantasy Quest">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Fantasy Quest</h3>
+                                <p>Mobil RPG Oyunu</p>
+                                <span class="portfolio-languages">12 Dil</span>
+                            </div>
+                            <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="pc" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fEZhbnRhc3klMjBRdWVzdCUyMGdhbWV8ZW58MHx8MHx8fDA%3D"
+                            alt="Space Commander">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Space Commander</h3>
+                                <p>PC Strateji Oyunu</p>
+                                <span class="portfolio-languages">8 Dil</span>
+                            </div>
+                            <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="console" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fFNoYWRvdyUyMFdhcnJpb3JzJTIwZ2FtZXxlbnwwfHwwfHx8MA%3D%3D"
+                            alt="Shadow Warriors">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Shadow Warriors</h3>
+                                <p>Konsol Aksiyon Oyunu</p>
+                                <span class="portfolio-languages">15 Dil</span>
+                            </div>
+                            <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="mobile" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fFB1enpsZSUyME1hc3RlciUyMGdhbWV8ZW58MHx8MHx8fDA%3D"
+                            alt="Puzzle Master">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Puzzle Master</h3>
+                                <p>Mobil Bulmaca Oyunu</p>
+                                <span class="portfolio-languages">25 Dil</span>
+                            </div>
+                            <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="vr" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fFB1enpsZSUyME1hc3RlciUyMGdhbWV8ZW58MHx8MHx8fDA%3D"
+                            alt="VR Explorer">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>VR Explorer</h3>
+                                <p>VR Macera Oyunu</p>
+                                <span class="portfolio-languages">6 Dil</span>
+                            </div>
+                            <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="pc" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fFB1enpsZSUyME1hc3RlciUyMGdhbWV8ZW58MHx8MHx8fDA%3D"
+                            alt="Medieval Kingdom">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Medieval Kingdom</h3>
+                                <p>PC Simülasyon Oyunu</p>
+                                <span class="portfolio-languages">10 Dil</span>
+                            </div>
+                            <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-more">
+                <a href="#" class="btn btn-primary">Tüm Projelerimiz</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Languages Section -->
+    <section class="languages-section section-padding" id="languages">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Dil Uzmanlığımız</span>
+                <h2 class="section-title">Desteklediğimiz <span class="gradient-text">Diller</span></h2>
+                <p class="section-description">Oyunlarınızı dünya çapında oyunculara ulaştırmak için geniş dil desteği
+                    sunuyoruz.</p>
+            </div>
+
+            <div class="languages-tabs">
+                <button class="language-tab active" data-region="all">Tümü</button>
+                <button class="language-tab" data-region="europe">Avrupa</button>
+                <button class="language-tab" data-region="asia">Asya</button>
+                <button class="language-tab" data-region="americas">Amerika</button>
+                <button class="language-tab" data-region="middle-east">Orta Doğu</button>
+            </div>
+
+            <div class="languages-grid">
+                <div class="language-card" data-region="europe" data-aos="fade-up" data-aos-delay="100">
+                    <div class="language-flag">🇬🇧</div>
+                    <h3 class="language-name">İngilizce</h3>
+                    <p class="language-info">Oyun endüstrisinin ana dili, global pazara erişim için temel gereklilik.
+                    </p>
+                </div>
+
+                <div class="language-card" data-region="europe" data-aos="fade-up" data-aos-delay="150">
+                    <div class="language-flag">🇩🇪</div>
+                    <h3 class="language-name">Almanca</h3>
+                    <p class="language-info">Avrupa'nın en büyük oyun pazarlarından biri, yüksek satın alma gücü.</p>
+                </div>
+
+                <div class="language-card" data-region="europe" data-aos="fade-up" data-aos-delay="200">
+                    <div class="language-flag">🇫🇷</div>
+                    <h3 class="language-name">Fransızca</h3>
+                    <p class="language-info">Fransa, Kanada ve Afrika'daki Fransızca konuşan ülkelere erişim.</p>
+                </div>
+
+                <div class="language-card" data-region="europe" data-aos="fade-up" data-aos-delay="250">
+                    <div class="language-flag">🇪🇸</div>
+                    <h3 class="language-name">İspanyolca</h3>
+                    <p class="language-info">İspanya ve Latin Amerika pazarlarına erişim için kritik önem taşır.</p>
+                </div>
+
+                <div class="language-card" data-region="europe" data-aos="fade-up" data-aos-delay="300">
+                    <div class="language-flag">🇮🇹</div>
+                    <h3 class="language-name">İtalyanca</h3>
+                    <p class="language-info">İtalya'nın büyüyen oyun pazarına erişim sağlar.</p>
+                </div>
+
+                <div class="language-card" data-region="europe" data-aos="fade-up" data-aos-delay="350">
+                    <div class="language-flag">🇷🇺</div>
+                    <h3 class="language-name">Rusça</h3>
+                    <p class="language-info">Rusya ve eski Sovyet ülkelerindeki geniş oyuncu kitlesine ulaşım.</p>
+                </div>
+
+                <div class="language-card" data-region="asia" data-aos="fade-up" data-aos-delay="400">
+                    <div class="language-flag">🇯🇵</div>
+                    <h3 class="language-name">Japonca</h3>
+                    <p class="language-info">Dünyanın en büyük oyun pazarlarından biri, yüksek kalite beklentisi.</p>
+                </div>
+
+                <div class="language-card" data-region="asia" data-aos="fade-up" data-aos-delay="450">
+                    <div class="language-flag">🇰🇷</div>
+                    <h3 class="language-name">Korece</h3>
+                    <p class="language-info">Güney Kore'nin büyük e-spor ve mobil oyun pazarına erişim.</p>
+                </div>
+
+                <div class="language-card" data-region="asia" data-aos="fade-up" data-aos-delay="500">
+                    <div class="language-flag">🇨🇳</div>
+                    <h3 class="language-name">Çince (Basitleştirilmiş)</h3>
+                    <p class="language-info">Dünyanın en büyük oyuncu kitlesine sahip Çin pazarına giriş.</p>
+                </div>
+
+                <div class="language-card" data-region="asia" data-aos="fade-up" data-aos-delay="550">
+                    <div class="language-flag">🇹🇼</div>
+                    <h3 class="language-name">Çince (Geleneksel)</h3>
+                    <p class="language-info">Tayvan, Hong Kong ve Makao pazarlarına erişim.</p>
+                </div>
+
+                <div class="language-card" data-region="asia" data-aos="fade-up" data-aos-delay="600">
+                    <div class="language-flag">🇹🇭</div>
+                    <h3 class="language-name">Tayca</h3>
+                    <p class="language-info">Güneydoğu Asya'nın hızla büyüyen oyun pazarı.</p>
+                </div>
+
+                <div class="language-card" data-region="middle-east" data-aos="fade-up" data-aos-delay="650">
+                    <div class="language-flag">🇸🇦</div>
+                    <h3 class="language-name">Arapça</h3>
+                    <p class="language-info">Orta Doğu ve Kuzey Afrika'daki geniş pazara erişim.</p>
+                </div>
+            </div>
+
+            <div class="languages-more">
+                <p>Ve daha fazlası... Toplam 50+ dil desteği sunuyoruz.</p>
+                <a href="#" class="btn btn-primary">Tüm Diller</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section section-padding" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Müşteri Yorumları</span>
+                <h2 class="section-title">Müşterilerimizin <span class="gradient-text">Deneyimleri</span></h2>
+                <p class="section-description">Lokalizasyon hizmetlerimizden faydalanan oyun geliştiricilerinin
+                    yorumları.</p>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonials-track">
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card" data-aos="fade-up">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text">"GameLingo ile çalışmak, oyunumuzun global başarısında kritik
+                                bir rol oynadı. Profesyonel çeviri ekipleri sayesinde oyunumuz 15 farklı dilde sorunsuz
+                                bir şekilde yayınlandı ve her pazarda yerel bir oyun gibi karşılandı."</p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-author-image">
+                                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aHVtYW5zJTIwZmFjZSUyMHR1cmtlfGVufDB8fDB8fHww"
+                                        alt="Ahmet Yılmaz">
+                                </div>
+                                <div class="testimonial-author-info">
+                                    <h4>Ahmet Yılmaz</h4>
+                                    <span>Kurucu, MoonGames Studio</span>
+                                    <div class="testimonial-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text">"Mobil oyunumuzun Japonca ve Korece lokalizasyonunda
+                                GameLingo'nun kültürel danışmanlık hizmeti sayesinde Asya pazarında büyük başarı elde
+                                ettik. Sadece çeviri değil, kültürel adaptasyon konusundaki uzmanlıkları gerçekten
+                                etkileyici."</p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-author-image">
+                                    <img src="https://images.unsplash.com/photo-1567186937675-a5131c8a89ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGh1bWFucyUyMGZhY2UlMjB0dXJrZXxlbnwwfHwwfHx8MA%3D%3D"
+                                        alt="Zeynep Kaya">
+                                </div>
+                                <div class="testimonial-author-info">
+                                    <h4>Zeynep Kaya</h4>
+                                    <span>Lokalizasyon Yöneticisi, PixelPlay Games</span>
+                                    <div class="testimonial-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text">"Ses ve dublaj hizmetleri için GameLingo ile çalıştık ve
+                                sonuçlar beklentilerimizin ötesindeydi. Karakterlerimize hayat veren profesyonel
+                                seslendirme sanatçıları sayesinde oyunumuz her dilde aynı duygusal etkiyi yaratabildi."
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-author-image">
+                                    <img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fGh1bWFucyUyMGZhY2UlMjB0dXJrZXxlbnwwfHwwfHx8MA%3D%3D"
+                                        alt="Mert Demir">
+                                </div>
+                                <div class="testimonial-author-info">
+                                    <h4>Mert Demir</h4>
+                                    <span>Ses Direktörü, Epic Adventures</span>
+                                    <div class="testimonial-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonials-controls">
+                    <button class="testimonial-arrow prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="testimonial-dots"></div>
+                    <button class="testimonial-arrow next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2 class="cta-title">Oyununuzu Globale Taşımaya Hazır Mısınız?</h2>
+                <p class="cta-description">Profesyonel lokalizasyon hizmetlerimizle oyununuzu dünya çapında oyunculara
+                    ulaştırın.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Ücretsiz Teklif Alın</a>
+                    <a href="#" class="btn btn-outline">Daha Fazla Bilgi</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section section-padding" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">İletişim</span>
+                <h2 class="section-title">Bizimle <span class="gradient-text">İletişime Geçin</span></h2>
+                <p class="section-description">Oyununuzun lokalizasyonu için teklif almak veya sorularınız için bizimle
+                    iletişime geçin.</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-info-header">
+                        <h3>İletişim Bilgileri</h3>
+                        <p>Aşağıdaki iletişim bilgilerinden bize ulaşabilir veya formu doldurarak mesaj
+                            gönderebilirsiniz.</p>
+                    </div>
+
+                    <div class="contact-info-content">
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h4>Adres</h4>
+                                <p>Levent Mahallesi, Büyükdere Caddesi No:123, Şişli, İstanbul, Türkiye</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h4>Telefon</h4>
+                                <p>+90 212 345 67 89</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h4>E-posta</h4>
+                                <p>info@gamelingo.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h4>Çalışma Saatleri</h4>
+                                <p>Pazartesi - Cuma: 09:00 - 18:00</p>
+                                <p>Cumartesi - Pazar: Kapalı</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <h4>Sosyal Medya</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Adınız Soyadınız</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-posta Adresiniz</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Şirket / Stüdyo Adı</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Konu</label>
+                            <select id="subject" name="subject" required>
+                                <option value="" disabled selected>Seçiniz</option>
+                                <option value="quote">Teklif Talebi</option>
+                                <option value="information">Bilgi Talebi</option>
+                                <option value="partnership">İş Birliği</option>
+                                <option value="other">Diğer</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mesajınız</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <div class="form-group form-checkbox">
+                            <input type="checkbox" id="privacy" name="privacy" required>
+                            <label for="privacy"><a href="gizlilik-politikasi.html" target="_blank">Gizlilik
+                                    Politikası</a>'nı okudum ve kabul ediyorum.</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.2891771390337!2d29.00658231744385!3d41.07608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab63f6f6ed831%3A0x9f6da2bea1f8fe00!2sLevent%2C%20B%C3%BCy%C3%BCkdere%20Cd.%2C%20%C5%9Ei%C5%9Fli%2F%C4%B0stanbul!5e0!3m2!1str!2str!4v1625764215694!5m2!1str!2str"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-widgets">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="index.html">
+                                <span class="logo-icon"><i class="fas fa-gamepad"></i></span>
+                                <span class="logo-text">Game<span>Lingo</span></span>
+                            </a>
+                        </div>
+                        <p class="footer-description">Profesyonel oyun lokalizasyon hizmetleri ile oyunlarınızı dünya
+                            çapında oyunculara ulaştırıyoruz. 10 yılı aşkın deneyimimizle oyun endüstrisine hizmet
+                            veriyoruz.</p>
+                        <div class="footer-social">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-widget">
+                        <h3 class="footer-widget-title">Hızlı Linkler</h3>
+                        <ul class="footer-links">
+                            <li><a href="#home">Ana Sayfa</a></li>
+                            <li><a href="#services">Hizmetler</a></li>
+                            <li><a href="#process">Süreç</a></li>
+                            <li><a href="#portfolio">Portföy</a></li>
+                            <li><a href="#languages">Diller</a></li>
+                            <li><a href="#testimonials">Referanslar</a></li>
+                            <li><a href="#contact">İletişim</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-widget">
+                        <h3 class="footer-widget-title">Hizmetlerimiz</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">Oyun Çeviri Hizmetleri</a></li>
+                            <li><a href="#">Mobil Oyun Lokalizasyonu</a></li>
+                            <li><a href="#">Ses ve Dublaj Hizmetleri</a></li>
+                            <li><a href="#">Teknik Entegrasyon</a></li>
+                            <li><a href="#">Kültürel Danışmanlık</a></li>
+                            <li><a href="#">Lokalizasyon QA</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-widget">
+                        <h3 class="footer-widget-title">İletişim</h3>
+                        <ul class="footer-contact">
+                            <li><i class="fas fa-map-marker-alt"></i> Levent Mahallesi, Büyükdere Caddesi No:123, Şişli,
+                                İstanbul</li>
+                            <li><i class="fas fa-phone-alt"></i> +90 212 345 67 89</li>
+                            <li><i class="fas fa-envelope"></i> info@gamelingo.com</li>
+                            <li><i class="fas fa-clock"></i> Pazartesi - Cuma: 09:00 - 18:00</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <p class="copyright">&copy; 2025 GameLingo. Tüm hakları saklıdır.</p>
+                    <div class="footer-bottom-links">
+                        <a href="gizlilik-politikasi.html">Gizlilik Politikası</a>
+                        <a href="cerez-politikasi.html">Çerez Politikası</a>
+                        <a href="kullanim-kosullari.html">Kullanım Koşulları</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cookie Consent -->
+    <div class="cookie-consent" id="cookieConsent">
+        <div class="cookie-content">
+            <div class="cookie-header">
+                <div class="cookie-icon">
+                    <i class="fas fa-cookie-bite"></i>
+                </div>
+                <h3>Çerez Kullanımı</h3>
+            </div>
+            <p class="cookie-text">Bu web sitesi, size en iyi deneyimi sunmak için çerezleri kullanmaktadır. Sitemizi
+                kullanmaya devam ederek, <a href="cerez-politikasi.html">Çerez Politikamızı</a> kabul etmiş olursunuz.
+            </p>
+            <div class="cookie-buttons">
+                <button id="cookieAccept" class="btn btn-primary">Kabul Et</button>
+                <button id="cookieReject" class="btn btn-outline">Reddet</button>
+                <button id="cookieSettings" class="btn btn-text">Ayarlar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
